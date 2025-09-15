@@ -269,6 +269,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = farrukh.WebProject;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.farrukh.web;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.farrukh.web;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -308,6 +310,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = farrukh.WebProject;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.farrukh.web;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.farrukh.web;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
