@@ -10,9 +10,22 @@
 		5701DDDB2E7886D600A0D5C6 /* WebProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		57F7FCC92E789A4400B73193 /* Exceptions for "WebProject" folder in "WebProject" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5701DDDA2E7886D600A0D5C6 /* WebProject */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5701DDDD2E7886D600A0D5C6 /* WebProject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				57F7FCC92E789A4400B73193 /* Exceptions for "WebProject" folder in "WebProject" target */,
+			);
 			path = WebProject;
 			sourceTree = "<group>";
 		};
